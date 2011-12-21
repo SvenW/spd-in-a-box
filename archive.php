@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
 
 <!-- Content //-->
 
@@ -24,7 +23,7 @@
     <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
     <h3>Archiv aus dem Jahr <?php echo get_the_time(__('Y', false)); ?></h3>
     <h5>Hier finden Sie weitere Nachrichten zu allen Kategorien.</h5>
-    <?php /* If this is an author archive */ } elseif (is_author()) { ?>
+    <?php /* If this is an author archive */ } elseif (is_athor()) { ?>
     <h3>Archiv</h3>
     <h5>Hier finden Sie weitere Nachrichten zu allen Kategorien.</h5>
     <?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
@@ -51,5 +50,7 @@
 </div>
 
 <!-- End of content //-->
+
+<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

@@ -15,7 +15,7 @@
     <!-- End of banner //-->
     
     <!-- Subline //-->
-    <div id="subline"><p>&copy; <?php echo date("Y",time()); ?> - <?php bloginfo('name'); ?>  | Realisierung: Rheinschmiede <?php if($_SERVER['REQUEST_URI']=="/"){ ?><a href="http://www.rheinschmiede.de">Webdesign</a><?php }else{ ?>Webdesign<?php } ?></p></div>
+    <div id="subline"><p>&copy; <?php echo date("Y",time()); ?> - <?php bloginfo('name'); ?>  | Realisierung: Themekraft.com - Beatiful <?php if($_SERVER['REQUEST_URI']=="/"){ ?><a href="http://www.themekraft.com">WordPress Themes</a><?php }else{ ?>WordPress Plugins<?php } ?></p></div>
     <!-- End of subline //-->    
 
 </div>

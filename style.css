@@ -194,6 +194,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form address{
 	min-height:448px;
 	border:1px solid #000;
 	background-image:url(bilder/teaser-image-border.png);
+	float:left;
 }
 .alignleft{
 	float:left;
@@ -444,6 +445,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form address{
 #sidebar{
 	width:242px;
 	float:right;
+	margin-bottom: 20px;
 }
 #sidebar h2{
 	color:#FFF;

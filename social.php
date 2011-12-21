@@ -1,12 +1,12 @@
 <?php
 
 global $blog_id;
-$facebook_link=get_blog_option($blog_id,"spd_facebook");
-$twitter_link=get_blog_option($blog_id,"spd_twitter");
-$youtube_link=get_blog_option($blog_id,"spd_youtube");
-$studivz_link=get_blog_option($blog_id,"spd_studivz");
-$newsletter_link=get_blog_option($blog_id,"spd_newsletter");
-$contact_link=get_blog_option($blog_id,"spd_contact");
+$facebook_link	=	get_option("spd_facebook");
+$twitter_link	=	get_option("spd_twitter");
+$youtube_link	=	get_option("spd_youtube");
+$studivz_link	=	get_option("spd_studivz");
+$newsletter_link=	get_option("spd_newsletter");
+$contact_link	=	get_option("spd_contact");
 
 if($facebook_link!="" || $facebook_link!="" || $facebook_link!="" || $facebook_link!=""){
 	

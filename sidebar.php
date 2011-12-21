@@ -66,5 +66,7 @@
                 	<?php } ?>
                 </ul>
                 		<?php endif; // end primary widget area ?>
+                <div style="clear: both;"></div>
             </div>
+            <div style="clear: both;"></div>
             <!-- End of sidebar //-->

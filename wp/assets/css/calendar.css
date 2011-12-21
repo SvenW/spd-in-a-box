@@ -1,0 +1,27 @@
+.ep-event-cal {
+	height: 50px;
+	width: 80px;
+}
+
+.ep-cal-cell {
+	background-color: #fff;
+}
+
+.ep-cal-day-0, .ep-cal-day-6 {
+	color: #3d120b;
+}
+
+.ep-event-title {
+	border: solid 1px #ddd;
+	padding: 1px;
+	color: #111 !important;
+	text-decoration: none;
+	display: block;
+	width: 80px;
+	overflow: hidden;
+}
+
+.ep-event-title:hover {
+	color: #fff;
+	background-color: #eee;
+}

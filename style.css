@@ -293,9 +293,15 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form address{
 #article ul li{
 	/* clear:left;*/
 	list-style-position: inside;
+	list-style-type: none;
+}
+#article ul li a{
+	display:block;
 }
 #article ul li img{
+	margin-top:10px;
 }
+
 #article ul img{
 	/* margin:0 10px 10px 0;*/
 }
